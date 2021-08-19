@@ -43,6 +43,7 @@ I have found that these steps need to be done in the correct sequence for it to 
 * Stop the clock.
 * Smash that RESET button.
 * Slide on over to Program Mode
+* IMPORTANT: Make sure all dips are in the UP / OFF / OPEN position.  Remember these dips are upside down. So UP is off on the DIP - which is on on the board.  Confusing as hell.  Leave them open.  The arduino will send the signals for you.
 * Upload the sketch to the Mega.  I have not used the serial interface so don't bother with it.
 * The ram wil be programmed automatically.  Watch the LEDs on the Memory Address Register.  They wil quickly cycle through and stop at the end of your program.
 * Slide on out of program mode.
