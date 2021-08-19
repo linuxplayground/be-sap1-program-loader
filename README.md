@@ -36,7 +36,13 @@ Hook up pin 32 on the Arduino to the write to ram button on the same line that g
 
 My Arduino sketch has two programs saved in it and this line is used to select which one to load.  Just tie pin 53 to either 5 volts or ground.
 
+### Common Ground
+
+Hook up Ground on the mega to any ground rail on the BE-SAP1.
+
 ## Running the program loader
+
+[Arduino Sketch](SAP1-Loader.ino)
 
 I have found that these steps need to be done in the correct sequence for it to work.  In future we could look at using the Arduino to disable things like the clock and the Microcode EEPROMS but for now I am doing it manually.
 
