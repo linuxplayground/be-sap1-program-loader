@@ -26,6 +26,10 @@ Connect the 8 data lines (pins 38, 40, 42, 44, 46, 48, 50, 52) to the data 8-DIP
 
 ![Data Pins](data_pins.jpg)
 
+You will notice a bunch of 220ohm pullup resistors on the inverters next to the 74189s.  This was to solve an issue I had with RAM chips getting uncomfortably warm and to stop the magic wizardry that was going on with wierd behaviour of the ram module.
+
+I really should have used 1kohm but I don't have any left.  If your board works without these, then don't bother adding them.  I just thought I should mention it because they are visible in this photo.
+
 ### Save to RAM Button
 
 Hook up pin 32 on the Arduino to the write to ram button on the same line that goes into the 74LS157.  Like this:
